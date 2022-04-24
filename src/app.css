@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.app {
+  background-color: #0093e9;
+  background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
+  height: 100vh;
+  width: 100vw;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-color: #0093e9;
+  background-image: linear-gradient(-60deg, #0093e9 0%, #80d0c7 100%);
+  max-width: 400px;
+  margin: auto;
+  padding: 30px;
+  transform: translateY(20vh);
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 6px 10px 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 6px 10px 5px rgba(0, 0, 0, 0.3);
+}
+
+.title {
+  border-bottom: 1px solid whitesmoke;
+  color: aliceblue;
+  width: 300px;
+  padding: 10px;
+}
+
+.todo--container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.todo--form {
+  margin: 15px;
+}
+
+input[type="text"] {
+  height: 2.5em;
+  width: 250px;
+  text-indent: 10px;
+  border-radius: 10px;
+  border: transparent;
+}
+
+.submit--btn {
+  height: 2.5em;
+  width: 4.5em;
+  border-radius: 10px;
+  border: transparent;
+  margin-left: 15px;
+}
+
+.submit--btn:hover {
+  cursor: pointer;
+  background-color: lightsteelblue;
+}
+
+.clear--btn {
+  height: 2.5em;
+  width: 325px;
+  border-radius: 10px;
+  border: transparent;
+  color: tomato;
+  margin-top: 2em;
+}
+
+.clear--btn:hover {
+  cursor: pointer;
+  background-color: lightsteelblue;
+}
+
+.todo--list {
+  background-color: whitesmoke;
+  width: 325px;
+  border-radius: 10px;
+  line-height: 2em;
+}
+
+.todo--item {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.complete {
+  background-color: slategray;
+}
+
+.btn--container {
+  display: flex;
+  justify-content: space-between;
+  width: 110px;
+}
+
+.edit--btn {
+  padding: 0 10px;
+  border-radius: 10px;
+  border: transparent;
+  color: #0093e9;
+}
+
+.delete--btn {
+  padding: 0 10px;
+  border-radius: 10px;
+  border: transparent;
+  color: tomato;
+}
+
+.edit--btn:hover {
+  cursor: pointer;
+  background-color: lightsteelblue;
+}
+
+.delete--btn:hover {
+  cursor: pointer;
+  background-color: lightsteelblue;
+}
